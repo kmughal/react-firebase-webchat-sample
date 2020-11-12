@@ -1,0 +1,8 @@
+{
+    "private" : true,
+    "name" : "my-sample-webchat",
+    "workspaces": ["packages/**"],
+    "scripts" : {
+        "start:client" : "yarn workspace client start"
+    }
+}

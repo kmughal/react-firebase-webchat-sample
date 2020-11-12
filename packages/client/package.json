@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "dependencies": {
+    "@firebase/app": "0.6.13",
+    "@firebase/auth": "^0.15.1",
+    "@firebase/firestore": "^2.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^2.17.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-react-refresh": "^2.3.7",
+    "@snowpack/web-test-runner-plugin": "^0.1.4",
+    "react-firebase-hooks": "^2.2.0"
+  }
+}
